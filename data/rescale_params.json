@@ -1,0 +1,84 @@
+{
+  "method": "tag_based_sqrt_count_robust_quantile_rescale",
+  "tag_count_power": 0.5,
+  "low_quantile": 0.05,
+  "high_quantile": 0.95,
+  "target_low": 10,
+  "target_high": 90,
+  "mood_columns": [
+    "joy",
+    "sadness",
+    "dreamy",
+    "tension",
+    "dark",
+    "energy",
+    "cute",
+    "chaotic"
+  ],
+  "params": {
+    "joy": {
+      "q_low": 42.5,
+      "q_high": 88.89087296526012,
+      "raw_min": 29.792740578363098,
+      "raw_max": 97.5,
+      "scaled_min": 0,
+      "scaled_max": 100
+    },
+    "sadness": {
+      "q_low": 41.33974596215561,
+      "q_high": 78.86751345948129,
+      "raw_min": 38.452994616207484,
+      "raw_max": 90.0,
+      "scaled_min": 4,
+      "scaled_max": 100
+    },
+    "dreamy": {
+      "q_low": 52.5,
+      "q_high": 87.52776749732567,
+      "raw_min": 50.0,
+      "raw_max": 97.5,
+      "scaled_min": 4,
+      "scaled_max": 100
+    },
+    "tension": {
+      "q_low": 50.0,
+      "q_high": 80.0,
+      "raw_min": 42.5,
+      "raw_max": 90.41451884327381,
+      "scaled_min": 0,
+      "scaled_max": 100
+    },
+    "dark": {
+      "q_low": 41.33974596215561,
+      "q_high": 87.52776749732567,
+      "raw_min": 35.85786437626905,
+      "raw_max": 104.84827557301445,
+      "scaled_min": 1,
+      "scaled_max": 100
+    },
+    "energy": {
+      "q_low": 47.5,
+      "q_high": 95.0,
+      "raw_min": 32.5,
+      "raw_max": 112.5,
+      "scaled_min": 0,
+      "scaled_max": 100
+    },
+    "cute": {
+      "q_low": 50.0,
+      "q_high": 81.75426480542941,
+      "raw_min": 50.0,
+      "raw_max": 85.35533905932738,
+      "scaled_min": 10,
+      "scaled_max": 99
+    },
+    "chaotic": {
+      "q_low": 50.0,
+      "q_high": 81.81980515339464,
+      "raw_min": 44.226497308103745,
+      "raw_max": 90.41451884327381,
+      "scaled_min": 0,
+      "scaled_max": 100
+    }
+  }
+}
