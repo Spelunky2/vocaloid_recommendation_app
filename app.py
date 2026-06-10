@@ -1251,8 +1251,7 @@ elif page == "유사 곡 탐색":
     tab1, tab2, tab3, tab4 = st.tabs([
         "분위기 유사 곡",
         "같은 보카로P 곡",
-        "같은 음성합성엔진 곡",
-        "가사 유사 곡"
+        "같은 음성합성엔진 곡"
     ])
 
     with tab1:
@@ -1280,13 +1279,6 @@ elif page == "유사 곡 탐색":
         else:
             for idx, (_, row) in enumerate(same_engine.iterrows(), start=1):
                 render_song_card(row, rank=idx)
-
-    with tab4:
-        st.info(
-            "현재 버전에서는 가사 데이터 입력을 스킵했기 때문에 가사 유사도 기능은 비활성화되어 있습니다. "
-            "추후 lyrics 폴더의 txt 파일을 기반으로 TF-IDF 또는 키워드 유사도 기능을 추가할 수 있습니다."
-        )
-
 
 # =========================================================
 # 랜덤 곡 추천
