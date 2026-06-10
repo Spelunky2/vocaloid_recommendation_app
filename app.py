@@ -1248,7 +1248,7 @@ elif page == "유사 곡 탐색":
         use_rescale=use_rescale
     )
 
-    tab1, tab2, tab3, tab4 = st.tabs([
+    tab1, tab2, tab3= st.tabs([
         "분위기 유사 곡",
         "같은 보카로P 곡",
         "같은 음성합성엔진 곡"
